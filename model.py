@@ -63,7 +63,7 @@ actual_value = test_labels[0]
 
 check = predicted_output == actual_value
 
-if check==False :
+if check==True :
   print("Prediction was right")
 else:
   print("Prediction was wrong")
